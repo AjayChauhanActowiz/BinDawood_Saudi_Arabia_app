@@ -1,0 +1,1 @@
+print(len('542b5bb6ec7705ac'))
