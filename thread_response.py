@@ -67,7 +67,7 @@ payload = {
 }
 # import urllib3
 # urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-# token = "f42a5b59aec3467e97a8794c611c436b91589634343"
+# token = "token"
 # proxyModeUrl = "http://{}:@proxy.scrape.do:8080".format(token)
 # proxies = {
 #     "http": proxyModeUrl,
@@ -134,5 +134,6 @@ file_name = 'BinDawood_app_pl_feasibility_test'
 df = pd.DataFrame(results)
 df.to_excel(f'{file_name}.xlsx', index=False)
 print(f"Results saved to {file_name}.xlsx")
+
 
 
